@@ -10,3 +10,15 @@ Crewman 1rd class:
   name: size/Crewman1stclass
   lines: 10
   color: 00ffcc
+Petty Officer 3rd class:
+  name: size/PettyOfficer3rdclass
+  lines: 30
+  color: 33cccc
+Petty Officer 2nd class:
+  name: size/PettyOfficer3ndclass
+  lines: 50
+  color: 0099ff
+Petty Officer 1st class:
+  name: size/PettyOfficer1stclass
+  lines: 75
+  color: 3366ff
