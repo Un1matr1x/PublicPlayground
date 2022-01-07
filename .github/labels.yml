@@ -34,3 +34,23 @@ Master Chief Petty Officer:
   name: size/MasterChiefPettyOfficer
   lines: 200
   color: 6600ff
+Ensign:
+  name: size/Ensign
+  lines: 500
+  color: 9933ff
+Lieutenant:
+  name: size/Lieutenant
+  lines: 600
+  color: cc00ff
+Lieutenant Commander:
+  name: size/LieutenantCommander
+  lines: 700
+  color: cc00ff
+Commander:
+  name: size/Commander
+  lines: 800
+  color: ff00ff
+Captain:
+  name: size/Captain
+  lines: 900
+  color: ff3399
