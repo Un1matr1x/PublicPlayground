@@ -54,3 +54,23 @@ Captain:
   name: size/Captain
   lines: 900
   color: ff3399
+Commodore:
+  name: size/Commodore
+  lines: 1000
+  color: ff6666
+Rear Admiral:
+  name: size/RearAdmiral
+  lines: 1250
+  color: ff9966
+Vice Admiral:
+  name: size/ViceAdmiral
+  lines: 1500
+  color: ff9933
+Admiral:
+  name: size/Admiral
+  lines: 2000
+  color: ff3300
+Fleet Admiral:
+  name: size/FleetAdmiral
+  lines: 2500
+  color: ff0000
