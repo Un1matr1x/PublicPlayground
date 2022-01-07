@@ -22,3 +22,15 @@ Petty Officer 1st class:
   name: size/PettyOfficer1stclass
   lines: 75
   color: 3366ff
+Chief Petty Officer:
+  name: size/ChiefPettyOfficer
+  lines: 100
+  color: 6600ff
+Senior Chief Petty Officer:
+  name: size/SeniorChiefPettyOfficer
+  lines: 150
+  color: 6600ff
+Master Chief Petty Officer:
+  name: size/MasterChiefPettyOfficer
+  lines: 200
+  color: 6600ff
