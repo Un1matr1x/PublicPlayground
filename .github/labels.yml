@@ -1,0 +1,76 @@
+Crewman 3rd class:
+  name: size/Crewman3rdclass
+  lines: 0
+  color: 00ff00
+Crewman 2rd class:
+  name: size/Crewman2ndclass
+  lines: 5
+  color: 00ff99
+Crewman 1rd class:
+  name: size/Crewman1stclass
+  lines: 10
+  color: 00ffcc
+Petty Officer 3rd class:
+  name: size/PettyOfficer3rdclass
+  lines: 30
+  color: 33cccc
+Petty Officer 2nd class:
+  name: size/PettyOfficer3ndclass
+  lines: 50
+  color: 0099ff
+Petty Officer 1st class:
+  name: size/PettyOfficer1stclass
+  lines: 75
+  color: 3366ff
+Chief Petty Officer:
+  name: size/ChiefPettyOfficer
+  lines: 100
+  color: 6600ff
+Senior Chief Petty Officer:
+  name: size/SeniorChiefPettyOfficer
+  lines: 150
+  color: 6600ff
+Master Chief Petty Officer:
+  name: size/MasterChiefPettyOfficer
+  lines: 200
+  color: 6600ff
+Ensign:
+  name: size/Ensign
+  lines: 500
+  color: 9933ff
+Lieutenant:
+  name: size/Lieutenant
+  lines: 600
+  color: cc00ff
+Lieutenant Commander:
+  name: size/LieutenantCommander
+  lines: 700
+  color: cc00ff
+Commander:
+  name: size/Commander
+  lines: 800
+  color: ff00ff
+Captain:
+  name: size/Captain
+  lines: 900
+  color: ff3399
+Commodore:
+  name: size/Commodore
+  lines: 1000
+  color: ff6666
+Rear Admiral:
+  name: size/RearAdmiral
+  lines: 1250
+  color: ff9966
+Vice Admiral:
+  name: size/ViceAdmiral
+  lines: 1500
+  color: ff9933
+Admiral:
+  name: size/Admiral
+  lines: 2000
+  color: ff3300
+Fleet Admiral:
+  name: size/FleetAdmiral
+  lines: 2500
+  color: ff0000
