@@ -1,0 +1,12 @@
+Crewman 3rd class:
+  name: size/Crewman3rdclass
+  lines: 0
+  color: 00ff00
+Crewman 2rd class:
+  name: size/Crewman2ndclass
+  lines: 5
+  color: 00ff99
+Crewman 1rd class:
+  name: size/Crewman1stclass
+  lines: 10
+  color: 00ffcc
