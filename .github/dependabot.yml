@@ -1,3 +1,22 @@
 # Basic set up for package managers
 
 version: 2
+updates:
+
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "14:30"
+      timezone: "Europe/Berlin"
+    open-pull-requests-limit: 500
+    labels:
+      - "GitHub Actions"
+      - "Dependencies"
+    commit-message:
+      prefix: "[gh-action]"
+    pull-request-branch-name:
+      separator: "/"
+    reviewers:
+      - "Un1matr1x"
