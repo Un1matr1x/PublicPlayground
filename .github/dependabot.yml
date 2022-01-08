@@ -23,3 +23,24 @@ updates:
       separator: "/"
     reviewers:
       - "Un1matr1x"
+
+  # Maintain dependencies for Composer
+  - package-ecosystem: "composer"
+    directory: "/"
+    schedule:
+      interval: "daily"
+      time: "13:45"
+      timezone: "Europe/Berlin"
+    open-pull-requests-limit: 500
+    labels:
+      - "Composer"
+      - "Dependencies"
+      commit-message:
+      prefix: "[debo/php]"
+      prefix-development: "[debo/php/dev]"
+      include: "scope"
+    pull-request-branch-name:
+      separator: "/"
+    reviewers:
+      - "Un1matr1x"
+    versioning-strategy: increase-if-necessary
