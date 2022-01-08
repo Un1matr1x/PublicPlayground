@@ -5,5 +5,10 @@
     "require-dev": {
         "roave/security-advisories": "dev-latest",
         "ergebnis/composer-normalize": "^2.23"
+    },
+    "config": {
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
     }
 }
