@@ -3,6 +3,7 @@
     "description": "nothing to descripe here, just play with fun",
     "license": "MIT",
     "require-dev": {
-        "roave/security-advisories": "dev-latest"
+        "roave/security-advisories": "dev-latest",
+        "ergebnis/composer-normalize": "^2.23"
     }
 }
