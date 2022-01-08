@@ -18,7 +18,7 @@ updates:
       - "GitHub Actions"
       - "Dependencies"
     commit-message:
-      prefix: "[gh-action]"
+      prefix: "[debo/gh-a]"
     pull-request-branch-name:
       separator: "/"
     reviewers:
