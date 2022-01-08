@@ -35,7 +35,7 @@ updates:
     labels:
       - "Composer"
       - "Dependencies"
-      commit-message:
+    commit-message:
       prefix: "[debo/php]"
       prefix-development: "[debo/php/dev]"
       include: "scope"
