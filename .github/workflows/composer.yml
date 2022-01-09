@@ -36,6 +36,12 @@ jobs:
     needs:
       - validate
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        php-version:
+          - "8.0"
+        dependencies:
+          - "locked"
     steps:
       - name: "Checkout"
         uses: "actions/checkout@v2.4.0"
@@ -46,9 +52,20 @@ jobs:
         run: |
           echo "##[set-output name=message;][${GITHUB_REF#refs/heads/}] normalize composer files"
         id: generate_commit_message
+      - name: "Determine composer cache directory"
+        uses: "./.github/.helper/composer/determine_cache_directory"
+      - name: "Cache dependencies installed with composer"
+        uses: "actions/cache@v2"
+        with:
+          path: "${{ env.COMPOSER_CACHE_DIR }}"
+          key: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-${{ hashFiles('composer.lock') }}"
+          restore-keys: "php-${{ matrix.php-version }}-composer-${{ matrix.dependencies }}-"
+      - name: "Install ${{ matrix.dependencies }} dependencies with composer"
+        uses: "./.github/.helper/composer/install"
+        with:
+          dependencies: "${{ matrix.dependencies }}"
       - name: "normalize composer.json"
         run: |
-          composer global require ergebnis/composer-normalize
           composer normalize
       - uses: stefanzweifel/git-auto-commit-action@v4.12.0
         with:
