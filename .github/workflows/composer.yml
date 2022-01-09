@@ -20,13 +20,6 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  #which_branch:
-  #  runs-on: ubuntu-latest
-  #  steps:
-  #    -   name: Extract branch name
-  #        shell: bash
-  #        run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
-  #        id: extract_branch
 
   validate:
     runs-on: ubuntu-latest
