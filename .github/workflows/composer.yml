@@ -60,6 +60,6 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4.12.0
         with:
           commit_message: ${{ steps.generate_commit_message.outputs.message }}
-          commit_user_name: 🤖 PublicPlayground Bot 🤖 # defaults to "GitHub Actions"
-          commit_user_email: actions@github.com # defaults to "actions@github.com"
-          commit_author: 🤖 PublicPlayground Bot 🤖 <actions@github.com> # defaults to author of the commit that triggered the run
+          commit_user_name: 🤖 Wayfapper-Bot 🤖 # defaults to "GitHub Actions"
+          commit_user_email: 83136706+wayfapper-bot@users.noreply.github.com # defaults to "actions@github.com"
+          commit_author: 🤖 Wayfapper-Bot 🤖 <83136706+wayfapper-bot@users.noreply.github.com> # defaults to author of the commit that triggered the run
