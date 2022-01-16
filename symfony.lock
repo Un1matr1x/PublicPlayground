@@ -1,4 +1,22 @@
 {
+    "ergebnis/composer-normalize": {
+        "version": "2.23.0"
+    },
+    "ergebnis/json-normalizer": {
+        "version": "2.1.0"
+    },
+    "ergebnis/json-printer": {
+        "version": "3.2.0"
+    },
+    "ergebnis/json-schema-validator": {
+        "version": "2.0.0"
+    },
+    "justinrainbow/json-schema": {
+        "version": "5.2.11"
+    },
+    "localheinz/diff": {
+        "version": "1.1.1"
+    },
     "psr/cache": {
         "version": "2.0.0"
     },
@@ -10,6 +28,9 @@
     },
     "psr/log": {
         "version": "2.0.0"
+    },
+    "roave/security-advisories": {
+        "version": "dev-latest"
     },
     "symfony/cache": {
         "version": "v5.4.2"
