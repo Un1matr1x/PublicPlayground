@@ -3,15 +3,13 @@
     "description": "nothing to descripe here, just play with fun",
     "license": "MIT",
     "type": "project",
-    "minimum-stability": "stable",
-    "prefer-stable": true,
     "require": {
         "php": ">=7.2.5",
         "ext-ctype": "*",
         "ext-iconv": "*",
         "symfony/console": "5.4.*",
         "symfony/dotenv": "5.4.*",
-        "symfony/flex": "^1.17|^2",
+        "symfony/flex": "^1.17 || ^2",
         "symfony/framework-bundle": "5.4.*",
         "symfony/runtime": "5.4.*",
         "symfony/yaml": "5.4.*"
@@ -19,6 +17,26 @@
     "require-dev": {
         "ergebnis/composer-normalize": "^2.23",
         "roave/security-advisories": "dev-latest"
+    },
+    "replace": {
+        "symfony/polyfill-ctype": "*",
+        "symfony/polyfill-iconv": "*",
+        "symfony/polyfill-php72": "*"
+    },
+    "conflict": {
+        "symfony/symfony": "*"
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "App\\Tests\\": "tests/"
+        }
     },
     "config": {
         "allow-plugins": {
@@ -33,41 +51,22 @@
         },
         "sort-packages": true
     },
-    "autoload": {
-        "psr-4": {
-            "App\\": "src/"
+    "extra": {
+        "symfony": {
+            "allow-contrib": false,
+            "require": "5.4.*"
         }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
-        }
-    },
-    "replace": {
-        "symfony/polyfill-ctype": "*",
-        "symfony/polyfill-iconv": "*",
-        "symfony/polyfill-php72": "*"
     },
     "scripts": {
-        "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
-        },
         "post-install-cmd": [
             "@auto-scripts"
         ],
         "post-update-cmd": [
             "@auto-scripts"
-        ]
-    },
-    "conflict": {
-        "symfony/symfony": "*"
-    },
-    "extra": {
-        "symfony": {
-            "allow-contrib": false,
-            "require": "5.4.*"
-
+        ],
+        "auto-scripts": {
+            "cache:clear": "symfony-cmd",
+            "assets:install %PUBLIC_DIR%": "symfony-cmd"
         }
     }
 }
