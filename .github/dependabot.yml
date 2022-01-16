@@ -27,6 +27,7 @@ updates:
       - "Un1matr1x"
     assignees:
       - "Un1matr1x"
+    rebase-strategy: "auto"
 
   # Maintain dependencies for Composer
   - package-ecosystem: "composer"
@@ -51,4 +52,5 @@ updates:
       - "Un1matr1x"
     assignees:
       - "Un1matr1x"
+    rebase-strategy: "auto"
     versioning-strategy: increase-if-necessary
