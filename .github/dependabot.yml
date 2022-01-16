@@ -25,6 +25,8 @@ updates:
       separator: "/"
     reviewers:
       - "Un1matr1x"
+    assignees:
+      - "Un1matr1x"
 
   # Maintain dependencies for Composer
   - package-ecosystem: "composer"
@@ -46,5 +48,7 @@ updates:
     pull-request-branch-name:
       separator: "/"
     reviewers:
+      - "Un1matr1x"
+    assignees:
       - "Un1matr1x"
     versioning-strategy: increase-if-necessary
