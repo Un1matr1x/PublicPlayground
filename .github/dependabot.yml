@@ -13,6 +13,8 @@ updates:
       interval: "daily"
       time: "14:30"
       timezone: "Europe/Berlin"
+    allow:
+      - dependency-type: "all"
     open-pull-requests-limit: 500
     labels:
       - "GitHub Actions"
@@ -31,6 +33,8 @@ updates:
       interval: "daily"
       time: "13:45"
       timezone: "Europe/Berlin"
+    allow:
+      - dependency-type: "all"
     open-pull-requests-limit: 500
     labels:
       - "Composer"
