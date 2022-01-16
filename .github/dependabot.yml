@@ -53,4 +53,4 @@ updates:
     assignees:
       - "Un1matr1x"
     rebase-strategy: "auto"
-    versioning-strategy: increase-if-necessary
+    versioning-strategy: increase
