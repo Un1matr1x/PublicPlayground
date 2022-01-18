@@ -6,13 +6,38 @@
 version: 2
 updates:
 
-  # Maintain dependencies for GitHub Actions
+  # Maintain dependencies for GitHub Actions - workdays
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
       time: "14:30"
       timezone: "Europe/Berlin"
+    allow:
+      - dependency-type: "all"
+    open-pull-requests-limit: 500
+    labels:
+      - "GitHub Actions"
+      - "Dependencies"
+    commit-message:
+      prefix: "[debo/gh-a]"
+    pull-request-branch-name:
+      separator: "/"
+    reviewers:
+      - "Un1matr1x"
+    assignees:
+      - "Un1matr1x"
+    rebase-strategy: "auto"
+
+  # Maintain dependencies for GitHub Actions - saturday
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "14:30"
+      timezone: "Europe/Berlin"
+    target-branch: "main"
     allow:
       - dependency-type: "all"
     open-pull-requests-limit: 500
