@@ -6,13 +6,15 @@
 version: 2
 updates:
 
-  # Maintain dependencies for GitHub Actions
+  # Maintain dependencies for GitHub Actions - workdays
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
       time: "14:30"
       timezone: "Europe/Berlin"
+    allow:
+      - dependency-type: "all"
     open-pull-requests-limit: 500
     labels:
       - "GitHub Actions"
@@ -23,6 +25,58 @@ updates:
       separator: "/"
     reviewers:
       - "Un1matr1x"
+    assignees:
+      - "Un1matr1x"
+    rebase-strategy: "auto"
+
+  # Maintain dependencies for GitHub Actions - saturday
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "saturday"
+      time: "14:30"
+      timezone: "Europe/Berlin"
+    target-branch: "main"
+    allow:
+      - dependency-type: "all"
+    open-pull-requests-limit: 500
+    labels:
+      - "GitHub Actions"
+      - "Dependencies"
+    commit-message:
+      prefix: "[debo/gh-a]"
+    pull-request-branch-name:
+      separator: "/"
+    reviewers:
+      - "Un1matr1x"
+    assignees:
+      - "Un1matr1x"
+    rebase-strategy: "auto"
+
+  # Maintain dependencies for GitHub Actions - sunday
+  - package-ecosystem: "github-actions"
+    directory: "/.github/"
+    schedule:
+      interval: "weekly"
+      day: "sunday"
+      time: "14:30"
+      timezone: "Europe/Berlin"
+    allow:
+      - dependency-type: "all"
+    open-pull-requests-limit: 500
+    labels:
+      - "GitHub Actions"
+      - "Dependencies"
+    commit-message:
+      prefix: "[debo/gh-a]"
+    pull-request-branch-name:
+      separator: "/"
+    reviewers:
+      - "Un1matr1x"
+    assignees:
+      - "Un1matr1x"
+    rebase-strategy: "auto"
 
   # Maintain dependencies for Composer
   - package-ecosystem: "composer"
@@ -31,6 +85,8 @@ updates:
       interval: "daily"
       time: "13:45"
       timezone: "Europe/Berlin"
+    allow:
+      - dependency-type: "all"
     open-pull-requests-limit: 500
     labels:
       - "Composer"
@@ -43,4 +99,7 @@ updates:
       separator: "/"
     reviewers:
       - "Un1matr1x"
-    versioning-strategy: increase-if-necessary
+    assignees:
+      - "Un1matr1x"
+    rebase-strategy: "auto"
+    versioning-strategy: increase
