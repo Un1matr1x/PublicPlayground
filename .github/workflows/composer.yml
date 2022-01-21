@@ -66,7 +66,7 @@ jobs:
           dependencies: "${{ matrix.dependencies }}"
       - name: "normalize composer.json"
         run: |
-          composer normalize
+          composer normalize --dry-run
       - uses: stefanzweifel/git-auto-commit-action@v4.13.1
         with:
           commit_message: ${{ steps.generate_commit_message.outputs.message }}
