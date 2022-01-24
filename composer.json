@@ -40,8 +40,8 @@
     },
     "config": {
         "allow-plugins": {
-            "ergebnis/composer-normalize": true,
             "composer/package-versions-deprecated": true,
+            "ergebnis/composer-normalize": true,
             "symfony/flex": true,
             "symfony/runtime": true
         },
@@ -65,8 +65,8 @@
             "@auto-scripts"
         ],
         "auto-scripts": {
-            "cache:clear": "symfony-cmd",
-            "assets:install %PUBLIC_DIR%": "symfony-cmd"
+            "assets:install %PUBLIC_DIR%": "symfony-cmd",
+            "cache:clear": "symfony-cmd"
         }
     }
 }
