@@ -1,4 +1,25 @@
 {
+    "composer/ca-bundle": {
+        "version": "1.3.1"
+    },
+    "composer/composer": {
+        "version": "2.2.5"
+    },
+    "composer/metadata-minifier": {
+        "version": "1.0.0"
+    },
+    "composer/pcre": {
+        "version": "1.0.1"
+    },
+    "composer/semver": {
+        "version": "3.2.7"
+    },
+    "composer/spdx-licenses": {
+        "version": "1.5.6"
+    },
+    "composer/xdebug-handler": {
+        "version": "2.0.4"
+    },
     "ergebnis/composer-normalize": {
         "version": "2.23.0"
     },
@@ -11,6 +32,9 @@
     "ergebnis/json-schema-validator": {
         "version": "2.0.0"
     },
+    "icanhazstring/composer-unused": {
+        "version": "0.7.12"
+    },
     "justinrainbow/json-schema": {
         "version": "5.2.11"
     },
@@ -19,6 +43,9 @@
     },
     "localheinz/diff": {
         "version": "1.1.1"
+    },
+    "nikic/php-parser": {
+        "version": "v4.13.2"
     },
     "psr/cache": {
         "version": "2.0.0"
@@ -32,8 +59,17 @@
     "psr/log": {
         "version": "2.0.0"
     },
+    "react/promise": {
+        "version": "v2.8.0"
+    },
     "roave/security-advisories": {
         "version": "dev-latest"
+    },
+    "seld/jsonlint": {
+        "version": "1.8.3"
+    },
+    "seld/phar-utils": {
+        "version": "1.2.0"
     },
     "symfony/cache": {
         "version": "v5.4.2"
@@ -134,6 +170,9 @@
     },
     "symfony/polyfill-php81": {
         "version": "v1.24.0"
+    },
+    "symfony/process": {
+        "version": "v5.4.3"
     },
     "symfony/routing": {
         "version": "5.4",
