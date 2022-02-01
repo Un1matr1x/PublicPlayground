@@ -64,6 +64,9 @@ jobs:
         uses: "./.github/.helper/composer/install"
         with:
           dependencies: "${{ matrix.dependencies }}"
+      - name: "check unused dependencies"
+        run: |
+          vendor/bin/composer-unused
       - name: "normalize composer.json"
         run: |
           composer normalize
