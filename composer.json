@@ -16,6 +16,7 @@
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.23",
+        "kubawerlos/composer-smaller-lock": "^1.0",
         "roave/security-advisories": "dev-latest"
     },
     "replace": {
@@ -43,7 +44,8 @@
             "composer/package-versions-deprecated": true,
             "ergebnis/composer-normalize": true,
             "symfony/flex": true,
-            "symfony/runtime": true
+            "symfony/runtime": true,
+            "kubawerlos/composer-smaller-lock": true
         },
         "optimize-autoloader": true,
         "preferred-install": {
