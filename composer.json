@@ -15,7 +15,7 @@
         "symfony/yaml": "5.4.*"
     },
     "require-dev": {
-        "ergebnis/composer-normalize": "^2.24",
+        "ergebnis/composer-normalize": "^2.25",
         "roave/security-advisories": "dev-latest"
     },
     "replace": {
