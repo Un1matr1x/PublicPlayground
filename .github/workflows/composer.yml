@@ -67,7 +67,7 @@ jobs:
       - name: "normalize composer.json"
         run: |
           composer normalize
-      - uses: stefanzweifel/git-auto-commit-action@v4.15.2
+      - uses: stefanzweifel/git-auto-commit-action@v4.15.3
         with:
           commit_message: ${{ steps.generate_commit_message.outputs.message }}
           commit_user_name: 🤖 Wayfapper-Bot 🤖 # defaults to "GitHub Actions"
