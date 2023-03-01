@@ -15,7 +15,7 @@
         "symfony/yaml": "5.4.*"
     },
     "require-dev": {
-        "ergebnis/composer-normalize": "2.29.0",
+        "ergebnis/composer-normalize": "2.30.0",
         "roave/security-advisories": "dev-latest"
     },
     "replace": {
@@ -45,10 +45,10 @@
             "symfony/flex": true,
             "symfony/runtime": true
         },
-        "optimize-autoloader": true,
         "preferred-install": {
             "*": "dist"
         },
+        "optimize-autoloader": true,
         "sort-packages": true
     },
     "extra": {
