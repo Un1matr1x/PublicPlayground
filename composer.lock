@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "757cadcf5795503479890e779c208cf3",
+    "content-hash": "e2ff14fa52b521bf05de53fb5c050c52",
     "packages": [
         {
             "name": "psr/cache",
@@ -2180,32 +2180,31 @@
         },
         {
             "name": "symfony/runtime",
-            "version": "v5.4.25",
+            "version": "v6.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/runtime.git",
-                "reference": "03e9c5d74464213a47a2ad8dc8eb249613701d6f"
+                "reference": "8e83b5d8e0ace903e1a91dedfe08a84ed2a54b0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/runtime/zipball/03e9c5d74464213a47a2ad8dc8eb249613701d6f",
-                "reference": "03e9c5d74464213a47a2ad8dc8eb249613701d6f",
+                "url": "https://api.github.com/repos/symfony/runtime/zipball/8e83b5d8e0ace903e1a91dedfe08a84ed2a54b0d",
+                "reference": "8e83b5d8e0ace903e1a91dedfe08a84ed2a54b0d",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0|^2.0",
-                "php": ">=7.2.5",
-                "symfony/polyfill-php80": "^1.15"
+                "php": ">=8.1"
             },
             "conflict": {
-                "symfony/dotenv": "<5.1"
+                "symfony/dotenv": "<5.4"
             },
             "require-dev": {
                 "composer/composer": "^1.0.2|^2.0",
-                "symfony/console": "^4.4.30|^5.4.9|^6.0.9",
-                "symfony/dotenv": "^5.1|^6.0",
-                "symfony/http-foundation": "^4.4.30|^5.3.7|^6.0",
-                "symfony/http-kernel": "^4.4.30|^5.3.7|^6.0"
+                "symfony/console": "^5.4.9|^6.0.9",
+                "symfony/dotenv": "^5.4|^6.0",
+                "symfony/http-foundation": "^5.4|^6.0",
+                "symfony/http-kernel": "^5.4|^6.0"
             },
             "type": "composer-plugin",
             "extra": {
@@ -2240,7 +2239,7 @@
                 "runtime"
             ],
             "support": {
-                "source": "https://github.com/symfony/runtime/tree/v5.4.25"
+                "source": "https://github.com/symfony/runtime/tree/v6.3.1"
             },
             "funding": [
                 {
@@ -2256,7 +2255,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-06-20T11:49:54+00:00"
+            "time": "2023-06-21T12:08:28+00:00"
         },
         {
             "name": "symfony/service-contracts",
