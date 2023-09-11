@@ -1186,16 +1186,16 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v5.4.26",
+            "version": "v5.4.28",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "37eec2334ee69871d971e16ce3daf6f9574fdfe8"
+                "reference": "b84ebb25405c7334976b5791bfbbe0e50f4e472c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/37eec2334ee69871d971e16ce3daf6f9574fdfe8",
-                "reference": "37eec2334ee69871d971e16ce3daf6f9574fdfe8",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/b84ebb25405c7334976b5791bfbbe0e50f4e472c",
+                "reference": "b84ebb25405c7334976b5791bfbbe0e50f4e472c",
                 "shasum": ""
             },
             "require": {
@@ -1316,7 +1316,7 @@
             "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/framework-bundle/tree/v5.4.26"
+                "source": "https://github.com/symfony/framework-bundle/tree/v5.4.28"
             },
             "funding": [
                 {
@@ -1332,7 +1332,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-07-26T17:30:07+00:00"
+            "time": "2023-08-08T11:21:07+00:00"
         },
         {
             "name": "symfony/http-foundation",
