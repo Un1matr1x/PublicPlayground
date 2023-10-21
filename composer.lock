@@ -1186,16 +1186,16 @@
         },
         {
             "name": "symfony/framework-bundle",
-            "version": "v5.4.28",
+            "version": "v5.4.29",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/framework-bundle.git",
-                "reference": "b84ebb25405c7334976b5791bfbbe0e50f4e472c"
+                "reference": "63e4ad1386fd4f31a005d751cd4dc016f9f2346e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/b84ebb25405c7334976b5791bfbbe0e50f4e472c",
-                "reference": "b84ebb25405c7334976b5791bfbbe0e50f4e472c",
+                "url": "https://api.github.com/repos/symfony/framework-bundle/zipball/63e4ad1386fd4f31a005d751cd4dc016f9f2346e",
+                "reference": "63e4ad1386fd4f31a005d751cd4dc016f9f2346e",
                 "shasum": ""
             },
             "require": {
@@ -1316,7 +1316,7 @@
             "description": "Provides a tight integration between Symfony components and the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/framework-bundle/tree/v5.4.28"
+                "source": "https://github.com/symfony/framework-bundle/tree/v5.4.29"
             },
             "funding": [
                 {
@@ -1332,7 +1332,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-08-08T11:21:07+00:00"
+            "time": "2023-09-27T13:49:58+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -3798,5 +3798,5 @@
         "ext-iconv": "*"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.3.0"
+    "plugin-api-version": "2.6.0"
 }
