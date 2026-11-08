@@ -11,7 +11,7 @@
         "symfony/dotenv": "~8.1.6",
         "symfony/flex": "^2.11.0",
         "symfony/framework-bundle": "~8.1.0",
-        "symfony/runtime": "~8.1.0",
+        "symfony/runtime": "~8.1.11",
         "symfony/yaml": "~8.1.0"
     },
     "require-dev": {
